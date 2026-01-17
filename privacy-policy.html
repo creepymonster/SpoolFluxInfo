@@ -1,184 +1,200 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpoolFlux - Datenschutzerklärung</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-        }
-        h1 {
-            color: #007AFF;
-            border-bottom: 2px solid #007AFF;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #555;
-            margin-top: 30px;
-        }
-        .last-updated {
-            color: #888;
-            font-style: italic;
-        }
-        a {
-            color: #007AFF;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SpoolFlux – Datenschutzerklärung</title>
+  <meta name="description" content="Datenschutzerklärung für SpoolFlux." />
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --card: #111826;
+      --text: #e8eef7;
+      --muted: #b7c3d6;
+      --accent: #66a3ff;
+      --border: rgba(255,255,255,.08);
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(1200px 600px at 20% 0%, rgba(102,163,255,.18), transparent 60%),
+                  radial-gradient(1000px 500px at 80% 20%, rgba(102,255,194,.10), transparent 55%),
+                  var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px 18px 50px;
+    }
+    header {
+      padding: 14px 0 18px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 30px;
+      letter-spacing: .2px;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .pill {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(102,163,255,.12);
+      border: 1px solid rgba(102,163,255,.25);
+      color: var(--text);
+      font-size: 13px;
+      margin-top: 8px;
+    }
+    .card {
+      background: rgba(17,24,38,.92);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 16px;
+      box-shadow: 0 12px 30px rgba(0,0,0,.25);
+      margin-top: 14px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+    p { margin: 8px 0; color: var(--muted); }
+    ul { margin: 8px 0 0 18px; color: var(--muted); }
+    li { margin: 6px 0; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .small { font-size: 13px; }
+    .muted { color: var(--muted); }
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 12px 0;
+    }
+    footer {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 12px;
+      opacity: .9;
+    }
+    code {
+      background: rgba(255,255,255,.06);
+      padding: 2px 6px;
+      border-radius: 8px;
+      color: var(--text);
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Datenschutzerklärung für SpoolFlux</h1>
-    <p class="last-updated">Letzte Aktualisierung: 17. Januar 2026</p>
- 
-    <h2>1. Einleitung</h2>
-    <p>
-        Diese Datenschutzerklärung erklärt, wie SpoolFlux ("wir", "uns", "unsere")
-        mit Ihren Daten umgeht, wenn Sie unsere mobile Anwendung nutzen.
-    </p>
- 
-    <h2>2. Datenerhebung</h2>
-    <p>
-        <strong>SpoolFlux sammelt KEINE persönlichen Daten.</strong>
-    </p>
-    <p>
-        Die App funktioniert vollständig offline und lokal auf Ihrem Gerät.
-        Wir erheben, speichern oder übertragen keine Nutzerdaten, einschließlich:
-    </p>
-    <ul>
+  <div class="wrap">
+    <header>
+      <h1>SpoolFlux – Datenschutzerklärung</h1>
+      <p class="subtitle">Transparenz, offline-first, keine Datensammlung</p>
+      <div class="pill">Letzte Aktualisierung: 17. Januar 2026</div>
+    </header>
+
+    <section class="card">
+      <h2>1. Einleitung</h2>
+      <p>
+        Diese Datenschutzerklärung erklärt, wie SpoolFlux („wir“, „uns“, „unsere“) mit Ihren Daten umgeht,
+        wenn Sie unsere mobile Anwendung nutzen.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. Datenerhebung</h2>
+      <p><strong>SpoolFlux sammelt KEINE persönlichen Daten.</strong></p>
+      <p>
+        Die App funktioniert vollständig offline und lokal auf Ihrem Gerät. Wir erheben, speichern oder übertragen
+        keine Nutzerdaten, einschließlich:
+      </p>
+      <ul>
         <li>Keine persönlichen Informationen</li>
         <li>Keine Standortdaten</li>
         <li>Keine Nutzungsstatistiken</li>
         <li>Keine Analyse-Daten (Analytics)</li>
         <li>Keine Crash-Reports mit persönlichen Daten</li>
-    </ul>
- 
-    <h2>3. NFC-Funktionalität</h2>
-    <p>
-        SpoolFlux verwendet die NFC-Funktion Ihres iPhones zum Lesen und Schreiben
-        von Filament-Informationen auf NFC-Tags. Diese Daten werden:
-    </p>
-    <ul>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>3. NFC-Funktionalität</h2>
+      <p>
+        SpoolFlux verwendet die NFC-Funktion Ihres iPhones zum Lesen und Schreiben von Filament-Informationen auf NFC-Tags.
+        Diese Daten werden:
+      </p>
+      <ul>
         <li>Ausschließlich lokal auf Ihrem Gerät verarbeitet</li>
         <li>Nicht an externe Server übertragen</li>
         <li>Nicht mit uns oder Dritten geteilt</li>
-    </ul>
- 
-    <h2>4. Datenspeicherung</h2>
-    <p>
-        Alle von Ihnen in der App eingegebenen oder gescannten Daten bleiben
-        lokal auf Ihrem iPhone. Wir haben keinen Zugriff auf diese Daten.
-    </p>
- 
-    <h2>5. Drittanbieter-Dienste</h2>
-    <p>
-        SpoolFlux nutzt keine Drittanbieter-Dienste, einschließlich:
-    </p>
-    <ul>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>4. Datenspeicherung</h2>
+      <p>
+        Alle von Ihnen in der App eingegebenen oder gescannten Daten bleiben lokal auf Ihrem iPhone.
+        Wir haben keinen Zugriff auf diese Daten.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. Drittanbieter-Dienste</h2>
+      <p>SpoolFlux nutzt keine Drittanbieter-Dienste, einschließlich:</p>
+      <ul>
         <li>Keine Werbenetzwerke</li>
         <li>Keine Analytics-Tools</li>
         <li>Keine Cloud-Dienste</li>
         <li>Keine Social Media Integration</li>
-    </ul>
- 
-    <h2>6. Kinder</h2>
-    <p>
-        Unsere App richtet sich an Nutzer ab 4 Jahren. Da wir keine Daten
-        sammeln, gibt es keine besonderen Datenschutzbedenken für Kinder.
-    </p>
- 
-    <h2>7. Änderungen der Datenschutzerklärung</h2>
-    <p>
-        Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren.
-        Änderungen werden auf dieser Seite veröffentlicht.
-    </p>
- 
-    <h2>8. Kontakt</h2>
-    <p>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>6. Kinder</h2>
+      <p>
+        Unsere App richtet sich an Nutzer ab 4 Jahren. Da wir keine Daten sammeln, gibt es keine besonderen
+        Datenschutzbedenken für Kinder.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>7. Änderungen der Datenschutzerklärung</h2>
+      <p>
+        Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite veröffentlicht.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>8. Kontakt</h2>
+      <p class="muted">
         Bei Fragen zu dieser Datenschutzerklärung kontaktieren Sie uns bitte unter:
-    </p>
-    <p>
-        <strong>E-Mail:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a>
-    </p>
- 
-    <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
- 
-    <h1>Privacy Policy for SpoolFlux</h1>
-    <p class="last-updated">Last updated: January 17, 2026</p>
- 
-    <h2>1. Introduction</h2>
-    <p>
-        This Privacy Policy explains how SpoolFlux ("we", "us", "our")
-        handles your data when you use our mobile application.
-    </p>
- 
-    <h2>2. Data Collection</h2>
-    <p>
-        <strong>SpoolFlux does NOT collect any personal data.</strong>
-    </p>
-    <p>
-        The app works completely offline and locally on your device.
-        We do not collect, store, or transmit any user data, including:
-    </p>
-    <ul>
-        <li>No personal information</li>
-        <li>No location data</li>
-        <li>No usage statistics</li>
-        <li>No analytics data</li>
-        <li>No crash reports with personal data</li>
-    </ul>
- 
-    <h2>3. NFC Functionality</h2>
-    <p>
-        SpoolFlux uses your iPhone's NFC capability to read and write
-        filament information on NFC tags. This data is:
-    </p>
-    <ul>
-        <li>Processed exclusively locally on your device</li>
-        <li>Not transmitted to external servers</li>
-        <li>Not shared with us or third parties</li>
-    </ul>
- 
-    <h2>4. Data Storage</h2>
-    <p>
-        All data you enter or scan in the app remains local on your iPhone.
-        We have no access to this data.
-    </p>
- 
-    <h2>5. Third-Party Services</h2>
-    <p>
-        SpoolFlux does not use any third-party services, including:
-    </p>
-    <ul>
-        <li>No advertising networks</li>
-        <li>No analytics tools</li>
-        <li>No cloud services</li>
-        <li>No social media integration</li>
-    </ul>
- 
-    <h2>6. Children</h2>
-    <p>
-        Our app is suitable for users aged 4+. Since we don't collect any data,
-        there are no special privacy concerns for children.
-    </p>
- 
-    <h2>7. Changes to Privacy Policy</h2>
-    <p>
-        We may update this Privacy Policy from time to time.
-        Changes will be posted on this page.
-    </p>
- 
-    <h2>8. Contact</h2>
-    <p>
-        If you have questions about this Privacy Policy, please contact us at:
-    </p>
-    <p>
-        <strong>Email:</strong> <a href="mailto:reimarmetzen@gmail.com">reimarmetzen@gmail.com</a>
-    </p>
+      </p>
+      <p class="small">
+        E-Mail:
+        <a href="mailto:reimarmetzen@gmail.com?subject=SpoolFlux%20Datenschutz">reimarmetzen@gmail.com</a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>English (Privacy Policy)</h2>
+      <p>
+        SpoolFlux does not collect personal data. The app works fully offline and processes NFC tag data locally on your device.
+        No data is sent to external servers or shared with third parties. For questions, contact:
+        <a href="mailto:reimarmetzen@gmail.com?subject=SpoolFlux%20Privacy">reimarmetzen@gmail.com</a>.
+      </p>
+      <footer>
+        © <span id="year"></span> SpoolFlux
+      </footer>
+    </section>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
- 
