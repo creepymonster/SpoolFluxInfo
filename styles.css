@@ -260,3 +260,29 @@ a:hover {
 
   border-color: #eceef1;
 }
+
+/* i18n floating flags */
+.lang-float {
+  position: absolute;
+  z-index: 10;
+  top: 12px;
+  right: 12px;
+
+  display: flex;
+
+  user-select: none;
+
+  gap: 10px;
+}
+.lang-flag {
+  font-size: 22px;
+  line-height: 1;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+.lang-flag:focus {
+  border-radius: 10px;
+  outline: 2px solid rgba(255,255,255,0.6);
+  outline-offset: 4px;
+}

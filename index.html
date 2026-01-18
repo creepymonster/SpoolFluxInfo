@@ -6,51 +6,53 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SpoolFlux – Info</title>
-  <meta name="description" content="SpoolFlux – Support und Datenschutz." />
+  <meta name="description" content="SpoolFlux – Support und Datenschutz." data-i18n-attr="content:meta.indexDescription" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
   <div class="wrap">
 
-    <header class="hero">
+    <header class="hero" style="position:relative;">
       <a class="appicon" href="./index.html">
         <img src="app-icon.png" alt="SpoolFlux Icon" onerror="this.style.display='none';" />
       </a>
 
-      <h1 class="title">SpoolFlux</h1>
-      <p class="subtitle">OpenSpool NFC Tag Manager</p>
+      <h1 class="title" data-i18n="app.title">SpoolFlux</h1>
+      <p class="subtitle" data-i18n="app.subtitle">OpenSpool NFC Tag Manager</p>
 
       <div class="actions">
-        <a class="btn btn-secondary" href="#kontakt" aria-label="Kontakt anzeigen">Kontakt</a>
-        <a class="btn btn-primary" href="./support.html" aria-label="Zur Support-Seite">Support</a>
-        <a class="btn btn-primary" href="./privacy-policy.html" aria-label="Zur Datenschutzerklärung">Datenschutz</a>
-        <a class="btn btn-primary" href="./imprint.html" aria-label="Zum Impressum">Impressum</a>
+        <a class="btn btn-secondary" href="#kontakt" data-i18n="nav.contact" data-i18n-attr="aria-label:aria.showContact">Kontakt</a>
+        <a class="btn btn-primary" href="./support.html" data-i18n="nav.support" data-i18n-attr="aria-label:aria.toSupport">Support</a>
+        <a class="btn btn-primary" href="./privacy-policy.html" data-i18n="nav.privacy" data-i18n-attr="aria-label:aria.toPrivacy">Datenschutz</a>
+        <a class="btn btn-primary" href="./imprint.html" data-i18n="nav.imprint" data-i18n-attr="aria-label:aria.toImprint">Impressum</a>
+      </div>
+
+      <div class="lang-float" data-i18n-attr="aria-label:aria.languageSwitch">
+        <span class="lang-flag" role="button" tabindex="0" data-lang="de" data-i18n-attr="aria-label:aria.langDe">🇩🇪</span>
+        <span class="lang-flag" role="button" tabindex="0" data-lang="en" data-i18n-attr="aria-label:aria.langEn">🇬🇧</span>
       </div>
     </header>
 
     <main class="content">
       <section class="card">
-        <h2 class="section-title">Über SpoolFlux</h2>
-        <p>
-          SpoolFlux macht die Verwaltung deiner 3D-Drucker-Filamente so einfach wie nie zuvor: Halte dein iPhone an den
-          NFC-Tag
-          deiner Filament-Spule und Material, Marke, Farbe sowie empfohlene Drucktemperaturen werden automatisch
-          ausgelesen.
+        <h2 class="section-title" data-i18n="index.about.title">Über SpoolFlux</h2>
+        <p data-i18n="index.about.body">
+          SpoolFlux macht die Verwaltung deiner 3D-Drucker-Filamente so einfach wie nie zuvor: Halte dein iPhone an den NFC-Tag deiner Filament-Spule und Material, Marke, Farbe sowie empfohlene Drucktemperaturen werden automatisch ausgelesen.
         </p>
         <ul>
-          <li>NFC-Scan von Filament-Spulen (Material, Marke, Farbe, Temperaturen)</li>
-          <li>Eigene NFC-Tags erstellen (PLA, PETG, ABS, TPU, ASA, Nylon oder generisch)</li>
-          <li>Extruder- &amp; Heizbett-Temperaturen direkt auf dem Tag speichern</li>
-          <li>Kompatibel mit dem offenen Standard OpenSpool</li>
+          <li data-i18n="index.about.bullets.0">NFC-Scan von Filament-Spulen (Material, Marke, Farbe, Temperaturen)</li>
+          <li data-i18n="index.about.bullets.1">Eigene NFC-Tags erstellen (PLA, PETG, ABS, TPU, ASA, Nylon oder generisch)</li>
+          <li data-i18n="index.about.bullets.2">Extruder- &amp; Heizbett-Temperaturen direkt auf dem Tag speichern</li>
+          <li data-i18n="index.about.bullets.3">Kompatibel mit dem offenen Standard OpenSpool</li>
         </ul>
       </section>
 
       <section class="card" id="kontakt">
-        <h2 class="section-title">Kontakt</h2>
-        <p class="muted">Bei Fragen kontaktiere mich bitte unter:</p>
+        <h2 class="section-title" data-i18n="index.contact.title">Kontakt</h2>
+        <p class="muted" data-i18n="index.contact.intro">Bei Fragen kontaktiere mich bitte unter:</p>
         <p>
-          E-Mail:
+          <span data-i18n="index.contact.emailLabel">E-Mail:</span>
           <a href="mailto:reimarmetzen@gmail.com?subject=SpoolFlux">reimarmetzen@gmail.com</a>
         </p>
       </section>
@@ -58,14 +60,16 @@
 
     <footer class="footer">
       <div class="footer-card">
-        <nav class="footer-nav" aria-label="Footer Navigation">
-          <a class="footer-link" href="./support.html">Support</a>
-          <a class="footer-link" href="./privacy-policy.html">Datenschutz</a>
-          <a class="footer-link" href="./imprint.html">Impressum</a>
+        <nav class="footer-nav" aria-label="Footer Navigation" data-i18n-attr="aria-label:aria.footerNav">
+          <a class="footer-link" href="./support.html" data-i18n="nav.support">Support</a>
+          <a class="footer-link" href="./privacy-policy.html" data-i18n="nav.privacy">Datenschutz</a>
+          <a class="footer-link" href="./imprint.html" data-i18n="nav.imprint">Impressum</a>
         </nav>
       </div>
     </footer>
   </div>
+
+  <script src="./assets/i18n.js"></script>
 </body>
 
 </html>

@@ -7,82 +7,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SpoolFlux – Support</title>
   <meta name="description"
-    content="Support und Hilfe für SpoolFlux – Filamentverwaltung per NFC (OpenSpool kompatibel)." />
+    content="Support und Hilfe für SpoolFlux – Filamentverwaltung per NFC (OpenSpool kompatibel)." data-i18n-attr="content:meta.supportDescription" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
   <div class="wrap">
 
-    <header class="hero">
+    <header class="hero" style="position:relative;">
       <a class="appicon" href="./index.html">
         <img src="app-icon.png" alt="SpoolFlux Icon" onerror="this.style.display='none';" />
       </a>
 
-      <h1 class="title">SpoolFlux</h1>
-      <p class="subtitle">OpenSpool NFC Tag Manager</p>
+      <h1 class="title" data-i18n="app.title">SpoolFlux</h1>
+      <p class="subtitle" data-i18n="app.subtitle">OpenSpool NFC Tag Manager</p>
 
       <div class="actions">
-        <a class="btn btn-secondary" href="#kontakt" aria-label="Kontakt anzeigen">Kontakt</a>
+        <a class="btn btn-secondary" href="#kontakt" data-i18n="nav.contact" data-i18n-attr="aria-label:aria.showContact">Kontakt</a>
+      </div>
+
+      <div class="lang-float" data-i18n-attr="aria-label:aria.languageSwitch">
+        <span class="lang-flag" role="button" tabindex="0" data-lang="de" data-i18n-attr="aria-label:aria.langDe">🇩🇪</span>
+        <span class="lang-flag" role="button" tabindex="0" data-lang="en" data-i18n-attr="aria-label:aria.langEn">🇬🇧</span>
       </div>
     </header>
 
     <main class="content">
       <section class="card" id="faq">
-        <h2 class="section-title">Häufige Fragen (FAQ)</h2>
+        <h2 class="section-title" data-i18n="support.faq.title">Häufige Fragen (FAQ)</h2>
 
-        <p><strong>Welche iPhones werden unterstützt?</strong><br />
-          SpoolFlux benötigt aktuell noch ein iPhone mit NFC-Unterstützung und iOS 26.
+        <p><strong data-i18n="support.faq.q1">Welche iPhones werden unterstützt?</strong><br />
+          <span data-i18n="support.faq.a1">SpoolFlux benötigt aktuell noch ein iPhone mit NFC-Unterstützung und iOS 26.</span>
         </p>
 
-        <p><strong>Welche NFC-Tags funktionieren?</strong><br />
-          In der Praxis funktionieren viele NFC-Tags zuverlässig (z.B. NTAG21x). Wichtig ist, dass der Tag genügend
-          Speicher
-          für die OpenSpool-Daten bietet.
+        <p><strong data-i18n="support.faq.q2">Welche NFC-Tags funktionieren?</strong><br />
+          <span data-i18n="support.faq.a2">In der Praxis funktionieren viele NFC-Tags zuverlässig (z.B. NTAG21x). Wichtig ist, dass der Tag genügend Speicher für die OpenSpool-Daten bietet.</span>
         </p>
 
-        <p><strong>Warum wird mein Tag nicht gelesen?</strong><br />
-          Prüfe bitte:
+        <p><strong data-i18n="support.faq.q3">Warum wird mein Tag nicht gelesen?</strong><br />
+          <span data-i18n="support.faq.a3Intro">Prüfe bitte:</span>
         </p>
         <ul>
-          <li>Ist NFC aktiviert und hältst du das iPhone nah genug an den Tag?</li>
-          <li>Ist der Tag beschreibbar oder evtl. gesperrt?</li>
-          <li>Ist der Tag korrekt positioniert (bei manchen Spulen hilft eine andere Stelle)?</li>
+          <li data-i18n="support.faq.a3Bullets.0">Ist NFC aktiviert und hältst du das iPhone nah genug an den Tag?</li>
+          <li data-i18n="support.faq.a3Bullets.1">Ist der Tag beschreibbar oder evtl. gesperrt?</li>
+          <li data-i18n="support.faq.a3Bullets.2">Ist der Tag korrekt positioniert (bei manchen Spulen hilft eine andere Stelle)?</li>
         </ul>
 
-        <p><strong>Wie melde ich einen Fehler?</strong><br />
-          Bitte sende eine kurze Beschreibung + iPhone-Modell + iOS-Version + App-Version an:
-          <a href="mailto:reimarmetzen@gmail.com?subject=SpoolFlux%20Support">reimarmetzen@gmail.com</a>
+        <p><strong data-i18n="support.faq.q4">Wie melde ich einen Fehler?</strong><br />
+          <span data-i18n="support.faq.a4">Bitte sende eine kurze Beschreibung + iPhone-Modell + iOS-Version + App-Version an: reimarmetzen@gmail.com</span>
         </p>
       </section>
 
       <section class="card" id="kontakt">
-        <h2 class="section-title">Kontakt</h2>
-        <p class="muted">Support per E-Mail:</p>
+        <h2 class="section-title" data-i18n="support.contact.title">Kontakt</h2>
+        <p class="muted" data-i18n="support.contact.intro">Support per E-Mail:</p>
         <p>
           <a href="mailto:reimarmetzen@gmail.com?subject=SpoolFlux%20Support">reimarmetzen@gmail.com</a>
         </p>
 
-        <p class="muted">Bitte gib in deiner Nachricht an:</p>
+        <p class="muted" data-i18n="support.contact.pleaseInclude">Bitte gib in deiner Nachricht an:</p>
         <ul>
-          <li>iPhone-Modell</li>
-          <li>iOS-Version</li>
-          <li>SpoolFlux Version</li>
-          <li>Welcher NFC-Tag (falls bekannt)</li>
+          <li data-i18n="support.contact.bullets.0">iPhone-Modell</li>
+          <li data-i18n="support.contact.bullets.1">iOS-Version</li>
+          <li data-i18n="support.contact.bullets.2">SpoolFlux Version</li>
+          <li data-i18n="support.contact.bullets.3">Welcher NFC-Tag (falls bekannt)</li>
         </ul>
       </section>
     </main>
 
     <footer class="footer">
       <div class="footer-card">
-        <nav class="footer-nav" aria-label="Footer Navigation">
-          <a class="footer-link" href="./support.html">Support</a>
-          <a class="footer-link" href="./privacy-policy.html">Datenschutz</a>
-          <a class="footer-link" href="./imprint.html">Impressum</a>
+        <nav class="footer-nav" aria-label="Footer Navigation" data-i18n-attr="aria-label:aria.footerNav">
+          <a class="footer-link" href="./support.html" data-i18n="nav.support">Support</a>
+          <a class="footer-link" href="./privacy-policy.html" data-i18n="nav.privacy">Datenschutz</a>
+          <a class="footer-link" href="./imprint.html" data-i18n="nav.imprint">Impressum</a>
         </nav>
       </div>
     </footer>
   </div>
+
+  <script src="./assets/i18n.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,124 @@
+{
+  "app": {
+    "title": "SpoolFlux",
+    "subtitle": "OpenSpool NFC Tag Manager"
+  },
+  "nav": {
+    "contact": "Kontakt",
+    "support": "Support",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum"
+  },
+  "aria": {
+    "showContact": "Kontakt anzeigen",
+    "toSupport": "Zur Support-Seite",
+    "toPrivacy": "Zur Datenschutzerklärung",
+    "toImprint": "Zum Impressum",
+    "footerNav": "Footer Navigation",
+    "languageSwitch": "Sprachwahl",
+    "langDe": "Deutsch",
+    "langEn": "Englisch",
+    "offlineNoData": "Offline & keine Datensammlung"
+  },
+  "meta": {
+    "indexDescription": "SpoolFlux – Support und Datenschutz.",
+    "supportDescription": "Support und Hilfe für SpoolFlux – Filamentverwaltung per NFC (OpenSpool kompatibel).",
+    "privacyDescription": "Datenschutzerklärung für SpoolFlux.",
+    "imprintDescription": "Impressum für SpoolFlux."
+  },
+  "index": {
+    "about": {
+      "title": "Über SpoolFlux",
+      "body": "SpoolFlux macht die Verwaltung deiner 3D-Drucker-Filamente so einfach wie nie zuvor: Halte dein iPhone an den NFC-Tag deiner Filament-Spule und Material, Marke, Farbe sowie empfohlene Drucktemperaturen werden automatisch ausgelesen.",
+      "bullets": [
+        "NFC-Scan von Filament-Spulen (Material, Marke, Farbe, Temperaturen)",
+        "Eigene NFC-Tags erstellen (PLA, PETG, ABS, TPU, ASA, Nylon oder generisch)",
+        "Extruder- & Heizbett-Temperaturen direkt auf dem Tag speichern",
+        "Kompatibel mit dem offenen Standard OpenSpool"
+      ]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "intro": "Bei Fragen kontaktiere mich bitte unter:",
+      "emailLabel": "E-Mail:"
+    }
+  },
+  "support": {
+    "faq": {
+      "title": "Häufige Fragen (FAQ)",
+      "q1": "Welche iPhones werden unterstützt?",
+      "a1": "SpoolFlux benötigt aktuell noch ein iPhone mit NFC-Unterstützung und iOS 26.",
+      "q2": "Welche NFC-Tags funktionieren?",
+      "a2": "In der Praxis funktionieren viele NFC-Tags zuverlässig (z.B. NTAG21x). Wichtig ist, dass der Tag genügend Speicher für die OpenSpool-Daten bietet.",
+      "q3": "Warum wird mein Tag nicht gelesen?",
+      "a3Intro": "Prüfe bitte:",
+      "a3Bullets": [
+        "Ist NFC aktiviert und hältst du das iPhone nah genug an den Tag?",
+        "Ist der Tag beschreibbar oder evtl. gesperrt?",
+        "Ist der Tag korrekt positioniert (bei manchen Spulen hilft eine andere Stelle)?"
+      ],
+      "q4": "Wie melde ich einen Fehler?",
+      "a4": "Bitte sende eine kurze Beschreibung + iPhone-Modell + iOS-Version + App-Version an: reimarmetzen@gmail.com"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "intro": "Support per E-Mail:",
+      "pleaseInclude": "Bitte gib in deiner Nachricht an:",
+      "bullets": ["iPhone-Modell", "iOS-Version", "SpoolFlux Version", "Welcher NFC-Tag (falls bekannt)"]
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "badges": ["Keine Datensammlung", "Funktioniert offline"],
+    "lastUpdated": "Letzte Aktualisierung: 17. Januar 2026",
+    "s1": { "title": "1. Einleitung", "body": "Diese Datenschutzerklärung erklärt, wie SpoolFlux (\"wir\", \"uns\", \"unsere\") mit Ihren Daten umgeht, wenn Sie unsere mobile Anwendung nutzen." },
+    "s2": {
+      "title": "2. Datenerhebung",
+      "body1": "SpoolFlux sammelt KEINE persönlichen Daten.",
+      "body2": "Die App funktioniert vollständig offline und lokal auf Ihrem Gerät. Wir erheben, speichern oder übertragen keine Nutzerdaten, einschließlich:",
+      "bullets": [
+        "Keine persönlichen Informationen",
+        "Keine Standortdaten",
+        "Keine Nutzungsstatistiken",
+        "Keine Analyse-Daten (Analytics)",
+        "Keine Crash-Reports mit persönlichen Daten"
+      ]
+    },
+    "s3": {
+      "title": "3. NFC-Funktionalität",
+      "body": "SpoolFlux verwendet die NFC-Funktion Ihres iPhones zum Lesen und Schreiben von Filament-Informationen auf NFC-Tags. Diese Daten werden:",
+      "bullets": [
+        "Ausschließlich lokal auf Ihrem Gerät verarbeitet",
+        "Nicht an externe Server übertragen",
+        "Nicht mit uns oder Dritten geteilt"
+      ]
+    },
+    "s4": { "title": "4. Datenspeicherung", "body": "Alle von Ihnen in der App eingegebenen oder gescannten Daten bleiben lokal auf Ihrem iPhone. Wir haben keinen Zugriff auf diese Daten." },
+    "s5": {
+      "title": "5. Drittanbieter-Dienste",
+      "body": "SpoolFlux nutzt keine Drittanbieter-Dienste, einschließlich:",
+      "bullets": [
+        "Keine Werbenetzwerke",
+        "Keine Analytics-Tools",
+        "Keine Cloud-Dienste",
+        "Keine Social Media Integration"
+      ]
+    },
+    "s6": { "title": "6. Kinder", "body": "Unsere App richtet sich an Nutzer ab 4 Jahren. Da wir keine Daten sammeln, gibt es keine besonderen Datenschutzbedenken für Kinder." },
+    "s7": { "title": "7. Änderungen der Datenschutzerklärung", "body": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite veröffentlicht." },
+    "s8": {
+      "title": "8. Hosting (GitHub Pages)",
+      "body": "Diese Website wird über GitHub Pages bereitgestellt. Beim Aufruf der Seite werden durch GitHub automatisch technische Zugriffsdaten verarbeitet (z. B. IP-Adresse, Datum/Uhrzeit, aufgerufene Seite, Browserinformationen), um die Website auszuliefern und die Sicherheit/Stabilität zu gewährleisten. SpoolFlux selbst sammelt keine personenbezogenen Daten."
+    },
+    "s9": { "title": "9. Kontakt", "body": "Bei Fragen zu dieser Datenschutzerklärung kontaktiere mich bitte unter:", "emailLabel": "E-Mail:" }
+  },
+  "imprint": {
+    "title": "Impressum",
+    "name": "Reimar Metzen",
+    "street": "Hauptstraße 80a",
+    "city": "16244 Finowfurt",
+    "contactTitle": "Kontakt",
+    "contactIntro": "Kontaktieren Sie mich bitte unter:",
+    "emailLabel": "E-Mail:"
+  }
+}

@@ -6,115 +6,120 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SpoolFlux – Datenschutzerklärung</title>
-  <meta name="description" content="Datenschutzerklärung für SpoolFlux." />
+  <meta name="description" content="Datenschutzerklärung für SpoolFlux." data-i18n-attr="content:meta.privacyDescription" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
   <div class="wrap">
 
-    <header class="hero">
+    <header class="hero" style="position:relative;">
       <a class="appicon" href="./index.html">
         <img src="app-icon.png" alt="SpoolFlux Icon" onerror="this.style.display='none';" />
       </a>
 
-      <h1 class="title">SpoolFlux</h1>
-      <p class="subtitle">OpenSpool NFC Tag Manager</p>
+      <h1 class="title" data-i18n="app.title">SpoolFlux</h1>
+      <p class="subtitle" data-i18n="app.subtitle">OpenSpool NFC Tag Manager</p>
 
       <div class="actions">
-        <a class="btn btn-secondary" href="#kontakt" aria-label="Kontakt anzeigen">Kontakt</a>
+        <a class="btn btn-secondary" href="#kontakt" data-i18n="nav.contact" data-i18n-attr="aria-label:aria.showContact">Kontakt</a>
       </div>
 
-      <div class="pill" title="Offline & keine Datensammlung">
+      <div class="lang-float" data-i18n-attr="aria-label:aria.languageSwitch">
+        <span class="lang-flag" role="button" tabindex="0" data-lang="de" data-i18n-attr="aria-label:aria.langDe">🇩🇪</span>
+        <span class="lang-flag" role="button" tabindex="0" data-lang="en" data-i18n-attr="aria-label:aria.langEn">🇬🇧</span>
+      </div>
+
+      <div class="pill" title="Offline & keine Datensammlung" data-i18n-attr="title:aria.offlineNoData">
         <span class="check">✓</span>
-        Keine Datensammlung
+        <span data-i18n="privacy.badges.0">Keine Datensammlung</span>
       </div>
 
-      <div class="pill" title="Offline & keine Datensammlung">
+      <div class="pill" title="Offline & keine Datensammlung" data-i18n-attr="title:aria.offlineNoData">
         <span class="check">✓</span>
-        Funktioniert offline
+        <span data-i18n="privacy.badges.1">Funktioniert offline</span>
       </div>
 
-      <div class="meta">Letzte Aktualisierung: 17. Januar 2026</div>
+      <div class="meta" data-i18n="privacy.lastUpdated">Letzte Aktualisierung: 17. Januar 2026</div>
     </header>
 
     <main class="content">
       <section class="card">
-        <h2 class="section-title">1. Einleitung</h2>
-        <p>
+        <h2 class="section-title" data-i18n="privacy.s1.title">1. Einleitung</h2>
+        <p data-i18n="privacy.s1.body">
           Diese Datenschutzerklärung erklärt, wie SpoolFlux ("wir", "uns", "unsere") mit Ihren Daten umgeht,
           wenn Sie unsere mobile Anwendung nutzen.
         </p>
       </section>
 
       <section class="card">
-        <h2 class="section-title">2. Datenerhebung</h2>
-        <p><strong>SpoolFlux sammelt KEINE persönlichen Daten.</strong></p>
-        <p>
+        <h2 class="section-title" data-i18n="privacy.s2.title">2. Datenerhebung</h2>
+        <p><strong data-i18n="privacy.s2.body1">SpoolFlux sammelt KEINE persönlichen Daten.</strong></p>
+        <p data-i18n="privacy.s2.body2">
           Die App funktioniert vollständig offline und lokal auf Ihrem Gerät. Wir erheben, speichern oder übertragen
           keine Nutzerdaten, einschließlich:
         </p>
         <ul>
-          <li>Keine persönlichen Informationen</li>
-          <li>Keine Standortdaten</li>
-          <li>Keine Nutzungsstatistiken</li>
-          <li>Keine Analyse-Daten (Analytics)</li>
-          <li>Keine Crash-Reports mit persönlichen Daten</li>
+          <li data-i18n="privacy.s2.bullets.0">Keine persönlichen Informationen</li>
+          <li data-i18n="privacy.s2.bullets.1">Keine Standortdaten</li>
+          <li data-i18n="privacy.s2.bullets.2">Keine Nutzungsstatistiken</li>
+          <li data-i18n="privacy.s2.bullets.3">Keine Analyse-Daten (Analytics)</li>
+          <li data-i18n="privacy.s2.bullets.4">Keine Crash-Reports mit persönlichen Daten</li>
         </ul>
       </section>
 
       <section class="card">
-        <h2 class="section-title">3. NFC-Funktionalität</h2>
-        <p>
+        <h2 class="section-title" data-i18n="privacy.s3.title">3. NFC-Funktionalität</h2>
+        <p data-i18n="privacy.s3.body">
           SpoolFlux verwendet die NFC-Funktion Ihres iPhones zum Lesen und Schreiben von Filament-Informationen auf
           NFC-Tags.
           Diese Daten werden:
         </p>
         <ul>
-          <li>Ausschließlich lokal auf Ihrem Gerät verarbeitet</li>
-          <li>Nicht an externe Server übertragen</li>
-          <li>Nicht mit uns oder Dritten geteilt</li>
+          <li data-i18n="privacy.s3.bullets.0">Ausschließlich lokal auf Ihrem Gerät verarbeitet</li>
+          <li data-i18n="privacy.s3.bullets.1">Nicht an externe Server übertragen</li>
+          <li data-i18n="privacy.s3.bullets.2">Nicht mit uns oder Dritten geteilt</li>
         </ul>
       </section>
 
       <section class="card">
-        <h2 class="section-title">4. Datenspeicherung</h2>
-        <p>
+        <h2 class="section-title" data-i18n="privacy.s4.title">4. Datenspeicherung</h2>
+        <p data-i18n="privacy.s4.body">
           Alle von Ihnen in der App eingegebenen oder gescannten Daten bleiben lokal auf Ihrem iPhone.
           Wir haben keinen Zugriff auf diese Daten.
         </p>
       </section>
 
       <section class="card">
-        <h2 class="section-title">5. Drittanbieter-Dienste</h2>
-        <p>SpoolFlux nutzt keine Drittanbieter-Dienste, einschließlich:</p>
+        <h2 class="section-title" data-i18n="privacy.s5.title">5. Drittanbieter-Dienste</h2>
+        <p data-i18n="privacy.s5.body">SpoolFlux nutzt keine Drittanbieter-Dienste, einschließlich:</p>
         <ul>
-          <li>Keine Werbenetzwerke</li>
-          <li>Keine Analytics-Tools</li>
-          <li>Keine Cloud-Dienste</li>
-          <li>Keine Social Media Integration</li>
+          <li data-i18n="privacy.s5.bullets.0">Keine Werbenetzwerke</li>
+          <li data-i18n="privacy.s5.bullets.1">Keine Analytics-Tools</li>
+          <li data-i18n="privacy.s5.bullets.2">Keine Cloud-Dienste</li>
+          <li data-i18n="privacy.s5.bullets.3">Keine Social Media Integration</li>
         </ul>
       </section>
 
       <section class="card">
-        <h2 class="section-title">6. Kinder</h2>
-        <p>
+        <h2 class="section-title" data-i18n="privacy.s6.title">6. Kinder</h2>
+        <p data-i18n="privacy.s6.body">
           Unsere App richtet sich an Nutzer ab 4 Jahren. Da wir keine Daten sammeln, gibt es keine besonderen
           Datenschutzbedenken für Kinder.
         </p>
       </section>
 
       <section class="card">
-        <h2 class="section-title">7. Änderungen der Datenschutzerklärung</h2>
-        <p>
+        <h2 class="section-title" data-i18n="privacy.s7.title">7. Änderungen der Datenschutzerklärung</h2>
+        <p data-i18n="privacy.s7.body">
           Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite
           veröffentlicht.
         </p>
       </section>
 
       <section class="card">
-        <h2 class="section-title">8. Hosting (GitHub Pages)</h2>
-        <p>
+        <h2 class="section-title" data-i18n="privacy.s8.title">8. Hosting (GitHub Pages)</h2>
+        <p data-i18n="privacy.s8.body">
           Diese Website wird über GitHub Pages bereitgestellt. Beim Aufruf der Seite werden durch GitHub automatisch
           technische
           Zugriffsdaten verarbeitet (z. B. IP-Adresse, Datum/Uhrzeit, aufgerufene Seite, Browserinformationen), um die
@@ -125,10 +130,10 @@
       </section>
 
       <section class="card" id="kontakt">
-        <h2 class="section-title">9. Kontakt</h2>
-        <p class="muted">Bei Fragen zu dieser Datenschutzerklärung kontaktiere mich bitte unter:</p>
+        <h2 class="section-title" data-i18n="privacy.s9.title">9. Kontakt</h2>
+        <p class="muted" data-i18n="privacy.s9.body">Bei Fragen zu dieser Datenschutzerklärung kontaktiere mich bitte unter:</p>
         <p>
-          E-Mail:
+          <span data-i18n="privacy.s9.emailLabel">E-Mail:</span>
           <a href="mailto:reimarmetzen@gmail.com?subject=SpoolFlux%20Datenschutz">reimarmetzen@gmail.com</a>
         </p>
       </section>
@@ -136,14 +141,16 @@
 
     <footer class="footer">
       <div class="footer-card">
-        <nav class="footer-nav" aria-label="Footer Navigation">
-          <a class="footer-link" href="./support.html">Support</a>
-          <a class="footer-link" href="./privacy-policy.html">Datenschutz</a>
-          <a class="footer-link" href="./imprint.html">Impressum</a>
+        <nav class="footer-nav" aria-label="Footer Navigation" data-i18n-attr="aria-label:aria.footerNav">
+          <a class="footer-link" href="./support.html" data-i18n="nav.support">Support</a>
+          <a class="footer-link" href="./privacy-policy.html" data-i18n="nav.privacy">Datenschutz</a>
+          <a class="footer-link" href="./imprint.html" data-i18n="nav.imprint">Impressum</a>
         </nav>
       </div>
     </footer>
   </div>
+
+  <script src="./assets/i18n.js"></script>
 </body>
 
 </html>

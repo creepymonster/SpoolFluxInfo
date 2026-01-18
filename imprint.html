@@ -6,42 +6,47 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SpoolFlux – Impressum</title>
-  <meta name="description" content="Impressum für SpoolFlux." />
+  <meta name="description" content="Impressum für SpoolFlux." data-i18n-attr="content:meta.imprintDescription" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
   <div class="wrap">
 
-    <header class="hero">
+    <header class="hero" style="position:relative;">
       <a class="appicon" href="./index.html">
         <img src="app-icon.png" alt="SpoolFlux Icon" onerror="this.style.display='none';" />
       </a>
 
-      <h1 class="title">SpoolFlux</h1>
-      <p class="subtitle">OpenSpool NFC Tag Manager</p>
+      <h1 class="title" data-i18n="app.title">SpoolFlux</h1>
+      <p class="subtitle" data-i18n="app.subtitle">OpenSpool NFC Tag Manager</p>
 
       <div class="actions">
-        <a class="btn btn-secondary" href="#kontakt" aria-label="Kontakt anzeigen">Kontakt</a>
+        <a class="btn btn-secondary" href="#kontakt" data-i18n="nav.contact" data-i18n-attr="aria-label:aria.showContact">Kontakt</a>
+      </div>
+
+      <div class="lang-float" data-i18n-attr="aria-label:aria.languageSwitch">
+        <span class="lang-flag" role="button" tabindex="0" data-lang="de" data-i18n-attr="aria-label:aria.langDe">🇩🇪</span>
+        <span class="lang-flag" role="button" tabindex="0" data-lang="en" data-i18n-attr="aria-label:aria.langEn">🇬🇧</span>
       </div>
     </header>
 
     <main class="content">
       <section class="card">
-        <h2 class="section-title">Impressum</h2>
+        <h2 class="section-title" data-i18n="imprint.title">Impressum</h2>
 
         <p>
-          Reimar Metzen<br />
-          Hauptstraße 80a<br />
-          16244 Finowfurt
+          <span data-i18n="imprint.name">Reimar Metzen</span><br />
+          <span data-i18n="imprint.street">Hauptstraße 80a</span><br />
+          <span data-i18n="imprint.city">16244 Finowfurt</span>
         </p>
       </section>
 
       <section class="card" id="kontakt">
-        <h2 class="section-title">Kontakt</h2>
-        <p class="muted">Kontaktiere mich bitte unter:</p>
+        <h2 class="section-title" data-i18n="imprint.contactTitle">Kontakt</h2>
+        <p class="muted" data-i18n="imprint.contactIntro">Kontaktiere mich bitte unter:</p>
         <p>
-          E-Mail:
+          <span data-i18n="imprint.emailLabel">E-Mail:</span>
           <a href="mailto:reimarmetzen@gmail.com?subject=SpoolFlux%20Impressum">reimarmetzen@gmail.com</a>
         </p>
       </section>
@@ -49,15 +54,17 @@
 
     <footer class="footer">
       <div class="footer-card">
-        <nav class="footer-nav" aria-label="Footer Navigation">
-          <a class="footer-link" href="./support.html">Support</a>
-          <a class="footer-link" href="./privacy-policy.html">Datenschutz</a>
-          <a class="footer-link" href="./imprint.html">Impressum</a>
+        <nav class="footer-nav" aria-label="Footer Navigation" data-i18n-attr="aria-label:aria.footerNav">
+          <a class="footer-link" href="./support.html" data-i18n="nav.support">Support</a>
+          <a class="footer-link" href="./privacy-policy.html" data-i18n="nav.privacy">Datenschutz</a>
+          <a class="footer-link" href="./imprint.html" data-i18n="nav.imprint">Impressum</a>
         </nav>
       </div>
     </footer>
 
   </div>
+
+  <script src="./assets/i18n.js"></script>
 </body>
 
 </html>
