@@ -14,7 +14,7 @@
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
-    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
   margin: 0;
 
@@ -79,6 +79,7 @@ body {
 .actions {
   display: grid;
 
+  box-sizing: border-box;
   max-width: 520px;
   margin: 26px auto 6px;
 
@@ -124,6 +125,7 @@ body {
   align-items: center;
   justify-content: center;
 
+  box-sizing: border-box;
   max-width: 520px;
   margin: 18px auto 0;
   padding: 14px 16px;
@@ -247,10 +249,9 @@ a:hover {
 
   color: var(--sub);
   border: 1px solid transparent;
+  border: 1px solid var(--hairline);
   border-radius: 12px;
   background: #f1f2f4;
-
-  border: 1px solid var(--hairline);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
 }
 
