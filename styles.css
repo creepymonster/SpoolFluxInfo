@@ -14,7 +14,7 @@
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
-  "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
   margin: 0;
 
@@ -46,7 +46,7 @@ body {
 
   border-radius: 22px;
   background: #dddddd;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
 
   object-fit: cover;
 }
@@ -107,7 +107,7 @@ body {
 .btn-primary {
   color: #ffffff;
   background: var(--brand);
-  box-shadow: 0 10px 22px rgba(255,106,43,0.28);
+  box-shadow: 0 10px 22px rgba(255, 106, 43, 0.28);
 }
 
 .btn-secondary {
@@ -129,7 +129,7 @@ body {
   padding: 14px 16px;
 
   color: #0f5132;
-  border: 1px solid rgba(31,157,76,0.18);
+  border: 1px solid rgba(31, 157, 76, 0.18);
   border-radius: 16px;
   background: var(--okbg);
 
@@ -147,7 +147,7 @@ body {
 
   color: var(--ok);
   border-radius: 999px;
-  background: rgba(31,157,76,0.12);
+  background: rgba(31, 157, 76, 0.12);
 
   place-items: center;
 }
@@ -176,7 +176,7 @@ body {
   border: 1px solid var(--hairline);
   border-radius: var(--radius);
   background: var(--card);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
 }
 
 .section-title {
@@ -208,15 +208,17 @@ ul {
 
   color: #1f2937;
 }
+
 li {
   margin: 8px 0;
 }
 
 a {
-  text-decoration: none; 
+  text-decoration: none;
 
   color: #0a66ff;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -227,22 +229,11 @@ a:hover {
   padding-top: 18px;
 }
 
-.footer-card {
-  padding: 14px 16px;
-
-  border: 1px solid var(--hairline);
-  border-radius: var(--radius);
-  background: #ffffff;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.04);
-}
-
 .footer-nav {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-
-  margin-bottom: 10px;
 
   gap: 10px 14px;
 }
@@ -258,6 +249,9 @@ a:hover {
   border: 1px solid transparent;
   border-radius: 12px;
   background: #f1f2f4;
+
+  border: 1px solid var(--hairline);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
 }
 
 .footer-link:hover {
