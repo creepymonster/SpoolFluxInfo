@@ -25,6 +25,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  font-size: 15px;
+  line-height: 1.55;
+
+  margin: 10px 0;
+
+  color: #1f2937;
+}
+
+ul {
+  font-size: 15px;
+
+  margin: 10px 0 0 18px;
+  padding: 0;
+
+  color: #1f2937;
+}
+
+li {
+  margin: 8px 0;
+}
+
+a {
+  text-decoration: none;
+
+  color: var(--brand);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .wrap {
   max-width: 820px;
   margin: 0 auto;
@@ -189,40 +221,8 @@ body {
   letter-spacing: -0.2px;
 }
 
-p {
-  font-size: 15px;
-  line-height: 1.55;
-
-  margin: 10px 0;
-
-  color: #1f2937;
-}
-
 .muted {
   color: var(--sub);
-}
-
-ul {
-  font-size: 15px;
-
-  margin: 10px 0 0 18px;
-  padding: 0;
-
-  color: #1f2937;
-}
-
-li {
-  margin: 8px 0;
-}
-
-a {
-  text-decoration: none;
-
-  color: #0a66ff;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 /* Footer */
