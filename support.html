@@ -1,3 +1,4 @@
+<!-- support.html -->
 <!doctype html>
 <html lang="de">
 <head>
@@ -5,202 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SpoolFlux – Support</title>
   <meta name="description" content="Support und Hilfe für SpoolFlux – Filamentverwaltung per NFC (OpenSpool kompatibel)." />
-
-  <style>
-    :root{
-      --bg: #ffffff;
-      --text: #111111;
-      --sub: #6b7280;
-      --hairline: #e5e7eb;
-      --card: #f6f7f9;
-      --okbg: #eaf7ee;
-      --ok: #1f9d4c;
-      --brand: #ff6a2b;
-      --radius: 22px;
-    }
-
-    html, body{
-      background: var(--bg);
-      color: var(--text);
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
-                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    .wrap{
-      max-width: 820px;
-      margin: 0 auto;
-      padding: 24px 18px 50px;
-    }
-
-    .hero{
-      text-align: center;
-      padding: 36px 8px 18px;
-    }
-
-    .appicon{
-      width: 92px;
-      height: 92px;
-      border-radius: 22px;
-      box-shadow: 0 10px 25px rgba(0,0,0,.18);
-      display: inline-block;
-      object-fit: cover;
-      background: #ddd;
-    }
-
-    h1{
-      font-size: 44px;
-      line-height: 1.05;
-      letter-spacing: -0.8px;
-      margin: 18px 0 6px;
-      font-weight: 800;
-    }
-
-    .subtitle{
-      margin: 0;
-      font-size: 18px;
-      color: var(--sub);
-      font-weight: 500;
-    }
-
-    .actions{
-      margin: 26px auto 6px;
-      max-width: 520px;
-      display: grid;
-      gap: 12px;
-    }
-
-    .btn{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      text-decoration: none;
-      padding: 16px 18px;
-      border-radius: 18px;
-      font-size: 18px;
-      font-weight: 700;
-      user-select: none;
-      border: 1px solid transparent;
-    }
-
-    .btn-primary{
-      background: var(--brand);
-      color: #fff;
-      box-shadow: 0 10px 22px rgba(255,106,43,.28);
-    }
-
-    .btn-secondary{
-      background: #f1f2f4;
-      color: #7b818a;
-      border-color: #eceef1;
-    }
-
-    .pill{
-      margin: 18px auto 0;
-      max-width: 520px;
-      background: var(--okbg);
-      color: #0f5132;
-      border: 1px solid rgba(31,157,76,.18);
-      border-radius: 16px;
-      padding: 14px 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      font-weight: 700;
-    }
-
-    .check{
-      width: 20px; height: 20px;
-      border-radius: 999px;
-      display: inline-grid;
-      place-items: center;
-      background: rgba(31,157,76,.12);
-      color: var(--ok);
-      font-size: 14px;
-      font-weight: 900;
-    }
-
-    .content{
-      margin-top: 26px;
-      display: grid;
-      gap: 14px;
-    }
-
-    .card{
-      background: var(--card);
-      border: 1px solid var(--hairline);
-      border-radius: var(--radius);
-      padding: 18px 18px;
-      box-shadow: 0 10px 20px rgba(0,0,0,.06);
-    }
-
-    h2{
-      margin: 0 0 8px;
-      font-size: 18px;
-      letter-spacing: -0.2px;
-    }
-
-    p{
-      margin: 10px 0;
-      color: #1f2937;
-      font-size: 15px;
-      line-height: 1.55;
-    }
-
-    .muted{ color: var(--sub); }
-
-    ul{
-      margin: 10px 0 0 18px;
-      padding: 0;
-      color: #1f2937;
-      font-size: 15px;
-    }
-
-    li{ margin: 8px 0; }
-
-    a{ color: #0a66ff; text-decoration: none; }
-    a:hover{ text-decoration: underline; }
-  </style>
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
   <div class="wrap">
 
     <header class="hero">
-      <!-- Optional: Lege app-icon.png ins Repo-Root, dann wird es angezeigt -->
       <img class="appicon" src="app-icon.png" alt="SpoolFlux Icon"
            onerror="this.style.display='none';" />
 
-      <h1>SpoolFlux</h1>
+      <h1 class="title">SpoolFlux</h1>
       <p class="subtitle">OpenSpool NFC Tag Manager</p>
 
       <div class="actions">
-        <a class="btn btn-primary" href="#kontakt" aria-label="Kontakt anzeigen">
-          Kontakt
-        </a>
-        <a class="btn btn-secondary" href="./privacy-policy.html" aria-label="Zur Datenschutzerklärung">
-          Datenschutz
-        </a>
+        <a class="btn btn-primary" href="#kontakt" aria-label="Kontakt anzeigen">Kontakt</a>
+        <a class="btn btn-secondary" href="./privacy-policy.html" aria-label="Zur Datenschutzerklärung">Datenschutz</a>
       </div>
 
       <div class="pill" title="Support & Hilfe">
         <span class="check">✓</span>
-        Support & Hilfe
+        Support &amp; Hilfe
       </div>
     </header>
 
     <main class="content">
       <section class="card">
-        <h2>SpoolFlux – Support</h2>
+        <h2 class="section-title">SpoolFlux – Support</h2>
         <p class="muted">Filamentverwaltung per NFC (OpenSpool kompatibel)</p>
       </section>
 
       <section class="card">
-        <h2>Über SpoolFlux</h2>
+        <h2 class="section-title">Über SpoolFlux</h2>
         <p>
           SpoolFlux macht die Verwaltung deiner 3D-Drucker-Filamente so einfach wie nie zuvor: Halte dein iPhone an den NFC-Tag
           deiner Filament-Spule und Material, Marke, Farbe sowie empfohlene Drucktemperaturen werden automatisch ausgelesen.
@@ -214,7 +51,7 @@
       </section>
 
       <section class="card" id="faq">
-        <h2>Häufige Fragen (FAQ)</h2>
+        <h2 class="section-title">Häufige Fragen (FAQ)</h2>
 
         <p><strong>Welche iPhones werden unterstützt?</strong><br/>
           SpoolFlux benötigt aktuell noch ein iPhone mit NFC-Unterstützung und iOS 26.
@@ -241,7 +78,7 @@
       </section>
 
       <section class="card" id="kontakt">
-        <h2>Kontakt</h2>
+        <h2 class="section-title">Kontakt</h2>
         <p class="muted">Support per E-Mail:</p>
         <p>
           <a href="mailto:reimarmetzen@gmail.com?subject=SpoolFlux%20Support">reimarmetzen@gmail.com</a>
